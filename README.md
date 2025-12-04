@@ -41,6 +41,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________
 <img width="1510" height="426" alt="image" src="https://github.com/user-attachments/assets/10db74bd-23d5-437f-9eea-071ac042db61" />
 ______________________________________________________________________________________________________________________
+
 **Alert Name:** Potential Data Exfiltration
 
 **Time:** March 21, 2025 / 13:30 
@@ -54,6 +55,8 @@ ________________________________________________________________________________
   - Host: UK04/MEETINGROOM
 
 **Process Name:** TBD (To Be Determined)
+
+**Trigger:** Rule triggered by **>5 GB data** sent to a single destination within **24hrs**.
 
 **Description:** 
 - Destination: *.zoom.us (Most likely Zoom).
@@ -90,4 +93,64 @@ ________________________________________________________________________________
     
 _____________________________________________________________________________________________________________________________________
 <img width="1473" height="693" alt="image" src="https://github.com/user-attachments/assets/9aacdcac-079e-4921-94f6-81c5ad4ce4e4" />
+______________________________________________________________________________________________________________________
+
+**2nd Scenario:**
+_____________________________________________________________________________________________________________________________________
+<img width="1495" height="373" alt="image" src="https://github.com/user-attachments/assets/a21ff2ad-6494-4a08-a964-33596b4605a8" />
+______________________________________________________________________________________________________________________
+
+**Alert Name:** Double-Extension File Creation
+
+**Time:** March 21, 2025 / 13:58
+
+**Severity:** High
+
+**Status:** In Progress
+
+**Host/Source:** Host: LPT-HR-009
+
+**Process Name:** 
+- Process: chrome.exe
+  - Process User: S.Conway
+
+**Trigger:** Detection of double-extension file (*.mp4.exe)
+
+**Description:**
+- Target File: C:\Users\S.Conway\Downloads\cats2025.mp4.exe
+  - MotW URL: https://freecatvideoshd.monster/cats2025.mp4.exe
+    - MD5: 14d8486f3f63875ef93cfd240c5dc10b
+      - Mimics benign video but executable
+        - Downloaded from untrusted domain, potential malware/phishing
+
+**Actions to be Taken:**
+- Ensure the File is Not Executed.
+  - Contain the Risk.
+    - Gather Information About the File.
+      - Investigate the Source URL/Domain.
+        - Examine the File Safely.
+          - Gather Endpoint Context before Execution.
+         - Monitor Network Logs before Executions.
+      - Prepare a Safe Environment for Analysis.
+    - Verify User's Activity.
+  - Assess whether to Escalate if needed before proceeding further.
+
+**Procedures Taken:**
+- Validate whether the File Executed.
+  - Perform Hash Reputation Lookup.
+    - Analyze the Download Source.
+      - Perform Static Analysis.
+    - Search Environment for further Spread.
+  - Interview User how the file was downloaded.
+- Apply Blocking Measures. 
+
+**Verdict:** True Positive
+
+**Comment:**
+- File was downloaded, but not executed.
+  - User reported it originated from a prize-winning phishing email.
+    - No malicious process observed.
+      - File quarantined and URL/hash submitted for IOC monitoring.
+_____________________________________________________________________________________________________________________________________
+<img width="1468" height="610" alt="image" src="https://github.com/user-attachments/assets/6b98167a-6e89-4eae-a80e-8ee90c15e3aa" />
 ______________________________________________________________________________________________________________________
