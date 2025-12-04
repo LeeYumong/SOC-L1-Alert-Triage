@@ -81,6 +81,8 @@ ________________________________________________________________________________
 
 **Verdict:** False Positive
 
+**Status:** Closed
+
 **Probable Cause of High Data Volume:**
 - Sharing Multiple Large Files.
   - High-Resolution Screen Sharing/Video Streaming (720p/1080p).
@@ -146,6 +148,8 @@ ________________________________________________________________________________
 
 **Verdict:** True Positive
 
+**Status:** Closed
+
 **Comment:**
 - File was downloaded, but not executed.
   - User reported it originated from a prize-winning phishing email.
@@ -154,3 +158,5 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________
 <img width="1468" height="610" alt="image" src="https://github.com/user-attachments/assets/6b98167a-6e89-4eae-a80e-8ee90c15e3aa" />
 ______________________________________________________________________________________________________________________
+
+
