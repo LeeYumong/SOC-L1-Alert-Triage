@@ -13,7 +13,7 @@ Down Below are the Procedures taken to successfully complete this Lab.
 
 **Reviewing the Alert Queues**
 - Severity of Alerts (Critical, High, Medium, and Low)
-  - Status of Alerts (Awaiting, Action, Closed, etc)
+  - Status of Alerts (Awaiting Action, In Progress, Closed, etc)
     - Assign the correct roles
       - Verdict (True/False Positive)
  
