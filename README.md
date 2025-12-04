@@ -159,4 +159,61 @@ ________________________________________________________________________________
 <img width="1468" height="610" alt="image" src="https://github.com/user-attachments/assets/6b98167a-6e89-4eae-a80e-8ee90c15e3aa" />
 ______________________________________________________________________________________________________________________
 
+**3rd Scenario:**
+_____________________________________________________________________________________________________________________________________
+<img width="1460" height="305" alt="image" src="https://github.com/user-attachments/assets/f34d7929-00ca-463a-a091-c5079c2c95f1" />
+______________________________________________________________________________________________________________________
 
+**Alert Name:** Download from GitHub Repository
+
+**Time:** March 21, 2025 / 13:02
+
+**Severity:** Low
+
+**Status:** In Progress
+
+**Host/Source:** 
+- Source Host: LPT-IT-063
+  - Source User: G.Chandler
+    - Source Network: VPN/DEVELOPERS
+
+**Trigger:** Any File downloaded from a GitHub URL by a user on a monitored host.
+
+**Description:** 
+- Accessed URL: https://github.com/facebook/react
+  - Downloaded from GitHub, which stores a lot of projects used by the IT team.
+    - GitHub can contain malicious scripts/exploits.
+        - Came from a unstrusted repository.
+
+**Actions to be Taken:**
+- Validate the Legitmacy of the Download.
+  - Review Downloaded File Type.
+    - Check for Automated Execution/Scripts.
+      - Verfiy Repository Integrity.
+    - Monitor Activity.
+  - Review Network Context.
+- IOC Check.
+
+**Procedures Taken:**
+- Validate the Download/User Intent.
+  - Inspect Downloaded Files.
+    - Check Network Activity.
+      - IOC Checkup
+        - Apply Preventive/Monitoring Measure
+
+**Verdict:** False Positive
+
+**Status:** Closed
+
+**Comment:**
+- User G.Chandler downloaded files from the official Facebook React GitHub Repository on host LPT-IT-063 via VPN/DEVELOPERS. 
+  - Files are standard source code with no execution observed. Repository verified and endpoint showed no suspicious activity.
+_____________________________________________________________________________________________________________________________________
+<img width="1476" height="526" alt="image" src="https://github.com/user-attachments/assets/a15b92df-e710-4414-a9e2-15e56d430f47" />
+______________________________________________________________________________________________________________________
+
+**Lab Completion:**
+_____________________________________________________________________________________________________________________________________
+<img width="1550" height="555" alt="image" src="https://github.com/user-attachments/assets/8f5d4244-031a-4da9-b353-8973b60d61fa" />
+
+______________________________________________________________________________________________________________________
