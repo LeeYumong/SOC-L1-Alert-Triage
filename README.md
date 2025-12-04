@@ -7,7 +7,7 @@ This repository demonstrates findings and my hands‑on process for triaging SIE
     - Document, Escalate, and close Alerts
 _____________________________________________________________________________________________________________________________________
 <img width="1580" height="742" alt="image" src="https://github.com/user-attachments/assets/fd177f83-dc54-4c79-b9d5-a5b0840b3627" />
-________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________
 
 Down Below are the Procedures taken to successfully complete this Lab.
 
