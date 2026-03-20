@@ -33,7 +33,7 @@ ________________________________________________________________________________
 **Change Alert to "In Progress"**
 - Shows what Alerts are being worked on and what is not.
 
-**Write a brief summary of the Investigation and what was found for future similar Scenarios**
+**Down below is a brief summary of the Investigation and what was found for future similar Scenarios.**
 
 **Begin Investigation (MetaData --> Evidence --> Logs)**
 
